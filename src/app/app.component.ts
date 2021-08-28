@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ApplicationStateServiceService } from './core/services/application-state-service.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-pwa';
+  public inputToBody: number = 1;
+  isMobileResolution: boolean;
+  constructor(private applicationStateServiceService: ApplicationStateServiceService) {
+    this.isMobileResolution = this.applicationStateServiceService.getIsMobileResolution();
+  }
+
+  menuIconClick() {
+    this.inputToBody = ++this.inputToBody;
+  }
 }
