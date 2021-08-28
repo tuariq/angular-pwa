@@ -1,2 +1,6 @@
-<app-top-navbar (menuIconClickEvent)="menuIconClick()"></app-top-navbar>
-<app-body [data]="inputToBody"></app-body>
+<app-top-navbar-mobile *ngIf="isMobileResolution"></app-top-navbar-mobile>
+<app-body-mobile *ngIf="isMobileResolution"></app-body-mobile>
+<app-bottom-navbar-mobile *ngIf="isMobileResolution"></app-bottom-navbar-mobile>
+
+<app-top-navbar (menuIconClickEvent)="menuIconClick()" *ngIf="!isMobileResolution"></app-top-navbar>
+<app-body [data]="inputToBody" *ngIf="!isMobileResolution"></app-body>

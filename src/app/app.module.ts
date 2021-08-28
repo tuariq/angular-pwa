@@ -8,13 +8,19 @@ import { TopNavbarComponent } from './shared/top-navbar/top-navbar.component';
 import { CoreModule } from './core/core.module';
 import { SideNavbarComponent } from './shared/side-navbar/side-navbar.component';
 import { BodyComponent } from './shared/body/body.component';
+import { BottomNavbarMobileComponent } from './shared/bottom-navbar-mobile/bottom-navbar-mobile.component';
+import { TopNavbarMobileComponent } from './shared/top-navbar-mobile/top-navbar-mobile.component';
+import { BodyMobileComponent } from './shared/body-mobile/body-mobile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavbarComponent,
     SideNavbarComponent,
-    BodyComponent
+    BodyComponent,
+    BottomNavbarMobileComponent,
+    TopNavbarMobileComponent,
+    BodyMobileComponent
   ],
   imports: [
     BrowserModule,
