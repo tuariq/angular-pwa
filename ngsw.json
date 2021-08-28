@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630153744703,
+  "timestamp": 1630171697715,
   "index": "/angular-pwa/index.html",
   "assetGroups": [
     {
@@ -11,12 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
+        "/angular-pwa/941.dcbd2ce0372bb6b6d5c5.js",
         "/angular-pwa/favicon.ico",
         "/angular-pwa/index.html",
-        "/angular-pwa/main.50485e59c8a2bc7d8ceb.js",
+        "/angular-pwa/main.2bf99fa02da9237d74dc.js",
         "/angular-pwa/manifest.webmanifest",
-        "/angular-pwa/polyfills.a9970e10a738341a5c80.js",
-        "/angular-pwa/runtime.edf4ff6924b895aead86.js",
+        "/angular-pwa/polyfills.eabd7dd5505e35dc97e7.js",
+        "/angular-pwa/runtime.51e741a83e8ed0450d87.js",
         "/angular-pwa/styles.9ab301a3c96f88f379f3.css"
       ],
       "patterns": []
@@ -43,6 +44,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/angular-pwa/941.dcbd2ce0372bb6b6d5c5.js": "1d759f4a3d9e680bb832f5af20ea2bebbdeb52ef",
     "/angular-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/angular-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/angular-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -52,11 +54,11 @@
     "/angular-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/angular-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/angular-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/angular-pwa/index.html": "5340f9383b3b74aa47b04474ede7c88b8379768b",
-    "/angular-pwa/main.50485e59c8a2bc7d8ceb.js": "9938a5b5063fbde8c669a75545a95d8c0888ba77",
+    "/angular-pwa/index.html": "9d703d5d120d715d1ba41f7f91ef17b0563e4f7d",
+    "/angular-pwa/main.2bf99fa02da9237d74dc.js": "3d523d438039fd932a1893809f068b3ce8f98a1d",
     "/angular-pwa/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
-    "/angular-pwa/polyfills.a9970e10a738341a5c80.js": "a3878d0b09fefede0832396c8269b5bdf4cdc4f9",
-    "/angular-pwa/runtime.edf4ff6924b895aead86.js": "9c87ed8120d4c28ce721916173a45a4e7f2043e4",
+    "/angular-pwa/polyfills.eabd7dd5505e35dc97e7.js": "b3c139fab6dd25a9f95e5f5b708cdf1288812f68",
+    "/angular-pwa/runtime.51e741a83e8ed0450d87.js": "e912d90d140a63b227607fb863124405e4b246f7",
     "/angular-pwa/styles.9ab301a3c96f88f379f3.css": "37b1c4500c15d887615ff02653afec8f6ca56ac9"
   },
   "navigationUrls": [
